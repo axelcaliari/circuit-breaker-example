@@ -1,5 +1,6 @@
 import requests
 
+# Set up mock requests using mocky.io - here the request returns an empty message
 def fallback_response():
     print("Error during the payment, please try again.")
 
